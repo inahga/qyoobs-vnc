@@ -15,7 +15,7 @@ nanoserde = "0.1.37"
 x11 = { version = "2.21.0", features = ["xinerama", "xlib"], default-features = false }
 
 [package.metadata.generate-rpm]
-release = "1-fc40"
+release = "1-fc41"
 assets = [
   { source = "target/release/qyoobs-vnc", dest = "/usr/bin/qyoobs-vnc", mode = "0755" },
   { source = "etc/qubes-rpc/qyoobs.VNC", dest = "/etc/qubes-rpc/qyoobs.VNC", mode = "0755" },
