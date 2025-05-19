@@ -10,7 +10,7 @@ jobs:
   release:
     name: Release qyoobs-vnc
     runs-on: ubuntu-latest
-    container: docker.io/library/fedora:40
+    container: docker.io/library/fedora:41
     steps:
       - uses: actions/checkout@v3
       - run: sudo dnf install -y rustup libX11-devel libXinerama-devel gcc make cmake automake gh
