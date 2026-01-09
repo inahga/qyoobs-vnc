@@ -28,10 +28,10 @@ the target qube should appear.
 Maximize and drag the window to another workspace. You should then be able to screenshare the VNC
 window from your source qube.
 
-If you have multiple monitors, and want to limit the capture to a single monitor, use the `--screen`
-option.
+Note that if you have multiple monitors, you'll probably want to limit the capture to a single monitor.
+Use the `--monitor` option.
 ```bash
-qyoobs-vnc connect personal --screen 1
+qyoobs-vnc connect personal --monitor 0
 ```
 
 You can also interactively select an entity to capture using the `--choose` flag.
